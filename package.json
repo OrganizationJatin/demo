@@ -1,0 +1,9 @@
+{
+  "name": "lintstaged-demo",
+  "devDependencies": {
+    "lint-staged": "^15.0.0"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"]
+  }
+}
